@@ -16,11 +16,11 @@
    sodipodi:version="0.32"
    inkscape:version="0.91 r13725"
    version="1.0"
-   sodipodi:docname="carte de visiste_v1.1.svg"
+   sodipodi:docname="carte de visiste_v1.1.3.svg"
    inkscape:output_extension="org.inkscape.output.svg.inkscape"
-   inkscape:export-filename="/Users/brunoboissonnet/Documents/binfoservice/carte de visite/carte de visiste_v1.1.png"
-   inkscape:export-xdpi="89"
-   inkscape:export-ydpi="89">
+   inkscape:export-filename="/Users/bruno/Desktop/carte de visiste_v1.1.2.png"
+   inkscape:export-xdpi="300"
+   inkscape:export-ydpi="300">
   <defs
      id="defs3219">
     <linearGradient
@@ -174,78 +174,90 @@
   </defs>
   <sodipodi:namedview
      id="base"
-     pagecolor="#fffff3"
+     pagecolor="#fffff7"
      bordercolor="#666666"
      borderopacity="1.0"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:zoom="2.3023066"
-     inkscape:cx="143.86289"
-     inkscape:cy="150.64494"
+     inkscape:zoom="2.0140335"
+     inkscape:cx="213.91144"
+     inkscape:cy="122.45655"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="1270"
-     inkscape:window-height="957"
-     inkscape:window-x="162"
-     inkscape:window-y="36"
+     inkscape:window-width="1322"
+     inkscape:window-height="857"
+     inkscape:window-x="176"
+     inkscape:window-y="15"
      units="mm"
-     guidetolerance="10000"
+     inkscape:window-maximized="0"
      showguides="true"
      inkscape:guide-bbox="true"
-     inkscape:window-maximized="0">
+     guidetolerance="10000">
     <sodipodi:guide
-       position="133.5042,230.42125"
-       orientation="0,1"
-       id="guide3411" />
-    <sodipodi:guide
-       position="133.5042,230.42125"
-       orientation="0,1"
-       id="guide3413" />
-    <sodipodi:guide
-       position="147.24364,0.43434702"
-       orientation="0,1"
-       id="guide3415" />
-    <sodipodi:guide
-       position="147.24364,212.83004"
-       orientation="0,1"
-       id="guide3417" />
-    <sodipodi:guide
-       position="141.16278,17.808228"
-       orientation="0,1"
-       id="guide3419" />
-    <sodipodi:guide
-       position="0.43434702,124.22325"
+       position="0,109.29741"
        orientation="1,0"
-       id="guide3421" />
+       id="guide3462" />
     <sodipodi:guide
-       position="336.61894,111.19284"
-       orientation="1,0"
-       id="guide3423" />
-    <sodipodi:guide
-       position="16.939534,120.74847"
-       orientation="1,0"
-       id="guide3425" />
-    <sodipodi:guide
-       position="318.81071,116.405"
-       orientation="1,0"
-       id="guide3427" />
-    <sodipodi:guide
-       position="119.01108,201.97136"
+       position="-12.92765,230.34722"
        orientation="0,1"
-       id="guide3429" />
+       id="guide3464" />
     <sodipodi:guide
-       position="131.1728,28.232556"
+       position="336.51065,153.56481"
+       orientation="1,0"
+       id="guide3466" />
+    <sodipodi:guide
+       position="163.75023,0"
        orientation="0,1"
-       id="guide3431" />
+       id="guide3468" />
     <sodipodi:guide
-       position="28.232556,115.53631"
-       orientation="1,0"
-       id="guide3433" />
+       position="-14.102891,220.55355"
+       orientation="0,1"
+       id="guide3470" />
     <sodipodi:guide
-       position="308.38638,99.03112"
+       position="161.39975,10.185421"
+       orientation="0,1"
+       id="guide3472" />
+    <sodipodi:guide
+       position="9.7936743,150.03909"
        orientation="1,0"
-       id="guide3435" />
+       id="guide3474" />
+    <sodipodi:guide
+       position="327.89222,97.153249"
+       orientation="1,0"
+       id="guide3476" />
+    <sodipodi:guide
+       position="9.7936743,125.35903"
+       orientation="1,0"
+       id="guide3506" />
+    <sodipodi:guide
+       position="9.7936743,220.55355"
+       orientation="0,1"
+       id="guide3400" />
+    <sodipodi:guide
+       position="161.39975,10.185421"
+       orientation="0,1"
+       id="guide3402" />
+    <sodipodi:guide
+       position="132.07327,13.90245"
+       orientation="0,1"
+       id="guide3404" />
+    <sodipodi:guide
+       position="124.37728,215.23972"
+       orientation="0,1"
+       id="guide3406" />
+    <sodipodi:guide
+       position="116.68128,169.06372"
+       orientation="0,1"
+       id="guide3408" />
+    <sodipodi:guide
+       position="14.895482,67.774443"
+       orientation="1,0"
+       id="guide3410" />
+    <sodipodi:guide
+       position="322.23893,126.85986"
+       orientation="1,0"
+       id="guide3412" />
   </sodipodi:namedview>
   <metadata
      id="metadata3222">
@@ -263,132 +275,166 @@
      inkscape:label="Calque 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-379.53592,38.585229)">
-    <rect
-       y="-38.011883"
-       x="379.79251"
-       height="229.18761"
-       width="336.75433"
-       id="rect4268"
-       style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:13.19999981;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
-    <flowRoot
-       xml:space="preserve"
-       id="flowRoot4270"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:125%;font-family:AppleGothic;-inkscape-font-specification:AppleGothic;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#28170b;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       transform="matrix(1.0073197,0,0,1.0073197,340.32355,-520.48189)"><flowRegion
-         id="flowRegion4272"><rect
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:125%;font-family:AppleGothic;-inkscape-font-specification:AppleGothic;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#28170b;fill-opacity:1"
-           id="rect4274"
-           width="730.64557"
-           height="137.60168"
-           x="69.769867"
-           y="577.422" /></flowRegion><flowPara
-         id="flowPara4276">04.90.87.76.62</flowPara><flowPara
-         id="flowPara4278">06.61.58.36.93</flowPara><flowPara
-         id="flowPara4280">contact@binfoservice.fr</flowPara><flowPara
-         id="flowPara4282">www.binfoservice.fr</flowPara><flowPara
-         id="flowPara4284">24 boulevard Jean Rey</flowPara><flowPara
-         id="flowPara4286">30133 Les Angles</flowPara></flowRoot>    <rect
-       style="opacity:1;fill:#ba7301;fill-opacity:1;stroke:none;stroke-width:3.02900004;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       id="rect4349"
-       width="335.88541"
-       height="77.312042"
-       x="380.1539"
-       y="-38.465569" />
-    <flowRoot
-       transform="translate(393.38842,-38.796566)"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:18px;line-height:100%;font-family:AppleGothic;-inkscape-font-specification:'AppleGothic Bold';text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       id="flowRoot4288"
-       xml:space="preserve"><flowRegion
-         id="flowRegion4290"><rect
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:18px;line-height:100%;font-family:AppleGothic;-inkscape-font-specification:'AppleGothic Bold';text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1"
-           y="43.877186"
-           x="17.210348"
-           height="17.992636"
-           width="156.84885"
-           id="rect4292" /></flowRegion><flowPara
-         id="flowPara4294">Bruno Boissonnet</flowPara></flowRoot>    <path
-       inkscape:connector-curvature="0"
-       inkscape:export-ydpi="203.55"
-       inkscape:export-xdpi="203.55"
-       inkscape:export-filename="C:\Documents and Settings\Claverie Marc\Bureau\b-info.png"
-       sodipodi:nodetypes="ccccccccccccccccc"
-       id="path4296"
-       d="m 642.81174,83.981704 c 0,0 -1.25523,-1.65394 -3.48857,-2.10059 -1.28577,-0.25718 -14.57363,-1.778543 -16.69501,-1.051197 -3.14299,1.077597 -4.19996,4.995727 -4.24279,6.667227 l 0,18.122806 c 0.5455,4.97011 3.74503,6.89779 5.03074,6.90967 -0.0606,0 15.65919,-1.91183 16.0014,-2.00015 1.87893,-0.48489 2.96994,-2.30323 2.96994,-2.30323 0,0 -1.28655,2.97747 -2.90932,4.30342 -1.39409,1.03039 -1.69714,0.84853 -2.30324,1.03039 -1.51946,0.45582 -14.05316,2.87619 -15.45591,2.96995 -5.03074,0.30304 -10.84938,-3.48374 -10.98104,-8.34788 -0.0606,-2.48505 -0.0649,-22.534496 -0.0649,-22.534496 0,-5.528763 6.38595,-8.525858 10.18521,-8.272557 1.92865,0.128578 14.6335,1.967711 16.34785,2.267718 4.08525,0.714921 5.36321,3.672179 5.36321,3.672179 l 0.24245,0.66674 z"
-       style="fill:#000000;fill-opacity:0.15294118;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:round;stroke-opacity:1" />
-    <path
-       inkscape:connector-curvature="0"
-       inkscape:export-ydpi="203.55"
-       inkscape:export-xdpi="203.55"
-       inkscape:export-filename="C:\Documents and Settings\Claverie Marc\Bureau\b-info.png"
-       sodipodi:nodetypes="ccccccccccccccccc"
-       id="path4298"
-       d="m 663.71342,96.844284 c 0,0 -1.25522,-1.65393 -3.48857,-2.10059 -1.28577,-0.25716 -14.57362,-1.77854 -16.69502,-1.05119 -3.14298,1.0776 -4.19995,4.99574 -4.24279,6.667226 l 0,18.12281 c 0.5455,4.97012 3.74505,6.89778 5.03075,6.90967 -0.0606,0 15.65918,-1.91184 16.00139,-2.00014 1.87894,-0.48491 2.96996,-2.30325 2.96996,-2.30325 0,0 -1.28655,2.97747 -2.90934,4.30342 -1.39408,1.03039 -1.69712,0.84853 -2.30324,1.03039 -1.51945,0.45582 -14.05316,2.8762 -15.45591,2.96996 -5.03074,0.30303 -10.84938,-3.48374 -10.98104,-8.34789 -0.0606,-2.48505 -0.0649,-22.534496 -0.0649,-22.534496 0,-5.52876 6.38593,-8.52584 10.18521,-8.27254 1.92863,0.12856 14.63349,1.96771 16.34783,2.26771 4.08526,0.71493 5.36321,3.67217 5.36321,3.67217 l 0.24246,0.66674 z"
-       style="fill:#000000;fill-opacity:0.15294118;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:round;stroke-opacity:1" />
-    <path
-       inkscape:connector-curvature="0"
-       inkscape:export-ydpi="203.55"
-       inkscape:export-xdpi="203.55"
-       inkscape:export-filename="C:\Documents and Settings\Claverie Marc\Bureau\b-info.png"
-       sodipodi:nodetypes="ccccccccccccccccc"
-       id="path4300"
-       d="m 630.75309,108.09904 c 0,0 -1.25523,-1.65394 -3.48858,-2.10059 -1.28577,-0.25717 -14.57363,-1.77855 -16.69501,-1.05119 -3.14299,1.07758 -4.19996,4.99573 -4.24279,6.66722 l 0,18.12281 c 0.54549,4.97012 3.74504,6.8978 5.03074,6.90968 -0.0606,0 15.65919,-1.91185 16.0014,-2.00016 1.87893,-0.48489 2.96995,-2.30324 2.96995,-2.30324 0,0 -1.28657,2.97747 -2.90933,4.30342 -1.39409,1.0304 -1.69713,0.84855 -2.30325,1.0304 -1.51945,0.45581 -14.05315,2.87619 -15.45591,2.96994 -5.03074,0.30306 -10.84937,-3.48373 -10.98103,-8.34787 -0.0606,-2.48504 -0.0649,-22.53449 -0.0649,-22.53449 0,-5.52877 6.38595,-8.52587 10.18521,-8.27257 1.92865,0.12858 14.6335,1.96772 16.34785,2.26773 4.08525,0.71492 5.3632,3.67218 5.3632,3.67218 l 0.24247,0.66673 z"
-       style="fill:#000000;fill-opacity:0.15294118;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:round;stroke-opacity:1" />
-    <text
-       inkscape:export-ydpi="203.55"
-       inkscape:export-xdpi="203.55"
-       inkscape:export-filename="C:\Documents and Settings\Claverie Marc\Bureau\b-info.png"
-       transform="scale(1.1020865,0.9073698)"
-       sodipodi:linespacing="125%"
-       id="text4302"
-       y="104.19411"
-       x="576.39972"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:32.40733719px;line-height:125%;font-family:'Trebuchet MS';-inkscape-font-specification:'Trebuchet MS';text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#28170b;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       xml:space="preserve"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.22250938px;font-family:'Lucida Sans Unicode';-inkscape-font-specification:'Lucida Sans Unicode';fill:#28170b;fill-opacity:1"
-         y="104.19411"
-         x="576.39972"
-         id="tspan4304"
-         sodipodi:role="line">info</tspan></text>
-    <path
-       inkscape:connector-curvature="0"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:81.36701965px;line-height:125%;font-family:'Trebuchet MS';-inkscape-font-specification:'Trebuchet MS';text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#28170b;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 605.73145,102.90278 0,-22.843763 3.43554,0 0,10.007607 c 1.40676,-2.18242 3.51692,-3.27363 6.33046,-3.27365 2.27871,2e-5 4.06915,0.68442 5.37132,2.05321 1.31372,1.36883 1.97062,3.24017 1.97062,5.61403 0,2.58446 -0.74409,4.67118 -2.23223,6.260136 -1.47653,1.5794 -3.42392,2.36909 -5.84215,2.36909 -2.24387,0 -4.10988,-0.70833 -5.59802,-2.125 l -0.41855,1.93834 -3.01699,0 m 3.43554,-3.891036 c 1.76717,1.301796 3.45296,1.952696 5.0574,1.952696 1.58114,0 2.80189,-0.54082 3.66225,-1.622466 0.86031,-1.09121 1.29049,-2.62275 1.29051,-4.59459 -2e-5,-3.65653 -1.46491,-5.4848 -4.3947,-5.48482 -1.91834,2e-5 -3.79016,0.85673 -5.61546,2.57012 l 0,7.17906"
-       id="path4306" />
-    <text
-       inkscape:export-ydpi="203.55"
-       inkscape:export-xdpi="203.55"
-       inkscape:export-filename="C:\Documents and Settings\Claverie Marc\Bureau\b-info.png"
-       transform="matrix(0.98879998,-0.03643632,0,1.0113269,0,0)"
-       sodipodi:linespacing="125%"
-       id="text4308"
-       y="129.04575"
-       x="642.04053"
-       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.3368454px;line-height:125%;font-family:'Apple LiGothic';-inkscape-font-specification:'Apple LiGothic Italic';text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#808080;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       xml:space="preserve"><tspan
-         sodipodi:role="line"
-         id="tspan4310"
-         x="642.04053"
-         y="129.04575">service</tspan></text>
-    <path
-       inkscape:connector-curvature="0"
-       id="path4312"
-       d="m 597.0758,65.383521 c -7.29322,0.335215 -13.21444,6.455028 -13.26573,13.755778 l -0.21002,26.356471 c -0.0513,7.30078 6.35753,15.45608 13.65077,15.12087 l 19.5661,-3.4652 c 4.19893,-0.19299 7.92976,-2.33677 10.36059,-5.4953 1.27947,-0.71486 2.31,-1.66617 3.04518,-2.97517 1.10274,-1.96351 1.57507,-4.63483 1.57507,-8.47048 l 0.10501,-15.785896 c 0,-6.152147 -2.15112,-10.204481 -5.3553,-12.215689 -2.35427,-2.076561 -5.63956,-4.114258 -9.34552,-4.655262 L 597.0758,65.383521 Z m 4.72527,4.725266 0.035,0 21.84124,2.030115 0.035,0 c 4.07409,1.113602 7.1054,4.926297 7.1054,12.285692 l -0.10499,15.785896 c 0,3.7445 -0.47934,6.2437 -1.43508,7.94545 -0.93837,1.67081 -2.36064,2.64005 -4.44526,3.32518 l -0.035,0 -22.96131,2.59016 c -0.0108,0 -0.0242,8e-5 -0.035,0 -1.83268,-0.0157 -3.55458,-1.35504 -4.86526,-3.71023 -1.31842,-2.36906 -2.13513,-5.70739 -2.13513,-9.41552 l 0,-17.711006 c 0,-3.708122 0.81671,-7.046471 2.13513,-9.415525 1.31068,-2.355192 3.03256,-3.694541 4.86526,-3.710212 z"
-       style="fill:#28170b;fill-opacity:1;stroke:none;stroke-width:0.31629816;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dashoffset:0;stroke-opacity:1" />
-    <flowRoot
-       transform="matrix(0.5082816,0,0,0.5082816,334.33823,-4.901751)"
-       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.9327755px;line-height:125%;font-family:Georgia;-inkscape-font-specification:'Georgia Italic';text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#28170b;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       id="flowRoot4314"
-       xml:space="preserve"
-       inkscape:export-filename="/Users/brunoboissonnet/Documents/autoentrepreneur/site/css/images/slogan2.png"
-       inkscape:export-xdpi="89"
-       inkscape:export-ydpi="89"><flowRegion
-         id="flowRegion4316"><rect
-           y="52.237518"
-           x="152.56673"
-           height="35.228901"
-           width="281.41306"
-           id="rect4318"
-           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.9327755px;line-height:125%;font-family:Georgia;-inkscape-font-specification:'Georgia Italic';text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#28170b;fill-opacity:1" /></flowRegion><flowPara
-         id="flowPara4320">Votre informaticien à domicile</flowPara></flowRoot>  </g>
+     transform="translate(-379.53592,38.585223)">
+    <g
+       id="g3483">
+      <rect
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:13.19999981;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="rect4268"
+         width="335.96918"
+         height="229.9306"
+         x="379.86484"
+         y="-38.728668" />
+      <flowRoot
+         transform="translate(7.9166406,80)"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.46655941px;line-height:125%;font-family:AppleGothic;-inkscape-font-specification:AppleGothic;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#28170b;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         id="flowRoot4270"
+         xml:space="preserve"><flowRegion
+           id="flowRegion4272"><rect
+             y="61.203072"
+             x="395.31912"
+             height="154.41844"
+             width="819.94012"
+             id="rect4274"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.46655941px;line-height:125%;font-family:AppleGothic;-inkscape-font-specification:AppleGothic;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#28170b;fill-opacity:1" /></flowRegion><flowPara
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:AppleGothic;-inkscape-font-specification:'AppleGothic, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start"
+           id="flowPara4284">17 rue du Liron</flowPara><flowPara
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:AppleGothic;-inkscape-font-specification:'AppleGothic, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start"
+           id="flowPara4286">30133 Les Angles</flowPara></flowRoot>      <rect
+         y="-38.779579"
+         x="379.78357"
+         height="71.590919"
+         width="335.9689"
+         id="rect4349"
+         style="opacity:1;fill:#ba7301;fill-opacity:1;stroke:none;stroke-width:3.02900004;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <flowRoot
+         transform="translate(8,-12)"
+         xml:space="preserve"
+         id="flowRoot4288"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:20.05305672px;line-height:100%;font-family:AppleGothic;-inkscape-font-specification:'AppleGothic Bold';text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"><flowRegion
+           id="flowRegion4290"><rect
+             id="rect4292"
+             width="174.73882"
+             height="20.044853"
+             x="395.3132"
+             y="-1.2800784"
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:20.05305672px;line-height:100%;font-family:AppleGothic;-inkscape-font-specification:'AppleGothic Bold';text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1" /></flowRegion><flowPara
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;line-height:100%;font-family:AppleGothic;-inkscape-font-specification:'AppleGothic, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start"
+           id="flowPara4294">Bruno Boissonnet</flowPara></flowRoot>      <g
+         id="g3453">
+        <path
+           inkscape:connector-curvature="0"
+           inkscape:export-ydpi="203.55"
+           inkscape:export-xdpi="203.55"
+           inkscape:export-filename="C:\Documents and Settings\Claverie Marc\Bureau\b-info.png"
+           sodipodi:nodetypes="ccccccccccccccccc"
+           id="path4296"
+           d="m 633.95902,86.620361 c 0,0 -1.3984,-1.842586 -3.88648,-2.340181 -1.43242,-0.286513 -16.23587,-1.981401 -18.59922,-1.171095 -3.50147,1.200506 -4.679,5.565533 -4.72671,7.427682 l 0,20.189873 c 0.60772,5.537 4.17218,7.68454 5.60454,7.69778 -0.0675,0 17.44525,-2.12989 17.82649,-2.22829 2.09324,-0.54019 3.30869,-2.56593 3.30869,-2.56593 0,0 -1.43329,3.31708 -3.24115,4.79426 -1.5531,1.14792 -1.89071,0.94532 -2.56595,1.14792 -1.69276,0.50781 -15.65604,3.20424 -17.21879,3.3087 -5.60454,0.3376 -12.08684,-3.88109 -12.23352,-9.30003 -0.0675,-2.76849 -0.0723,-25.104756 -0.0723,-25.104756 0,-6.159367 7.11432,-9.498307 11.34692,-9.216115 2.14863,0.143244 16.30258,2.192146 18.21246,2.526371 4.55121,0.796464 5.97494,4.091023 5.97494,4.091023 l 0.2701,0.742788 z"
+           style="fill:#000000;fill-opacity:0.15294118;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:round;stroke-opacity:1" />
+        <path
+           inkscape:connector-curvature="0"
+           inkscape:export-ydpi="203.55"
+           inkscape:export-xdpi="203.55"
+           inkscape:export-filename="C:\Documents and Settings\Claverie Marc\Bureau\b-info.png"
+           sodipodi:nodetypes="ccccccccccccccccc"
+           id="path4298"
+           d="m 657.24471,100.95003 c 0,0 -1.39838,-1.842575 -3.88647,-2.340181 -1.43242,-0.286491 -16.23587,-1.981398 -18.59923,-1.171087 -3.50146,1.20051 -4.67899,5.565548 -4.72672,7.427688 l 0,20.18987 c 0.60772,5.53701 4.17221,7.68453 5.60455,7.69778 -0.0675,0 17.44525,-2.1299 17.82649,-2.22827 2.09325,-0.54022 3.30871,-2.56596 3.30871,-2.56596 0,0 -1.43329,3.31708 -3.24117,4.79426 -1.55309,1.14792 -1.89069,0.94532 -2.56595,1.14792 -1.69275,0.50781 -15.65604,3.20425 -17.21879,3.30871 -5.60454,0.33759 -12.08685,-3.88109 -12.23352,-9.30004 -0.0675,-2.76849 -0.0723,-25.10476 -0.0723,-25.10476 0,-6.15936 7.1143,-9.498284 11.34692,-9.216092 2.1486,0.143223 16.30256,2.192144 18.21244,2.526362 4.55122,0.796474 5.97493,4.09101 5.97493,4.09101 l 0.27011,0.74279 z"
+           style="fill:#000000;fill-opacity:0.15294118;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:round;stroke-opacity:1" />
+        <path
+           inkscape:connector-curvature="0"
+           inkscape:export-ydpi="203.55"
+           inkscape:export-xdpi="203.55"
+           inkscape:export-filename="C:\Documents and Settings\Claverie Marc\Bureau\b-info.png"
+           sodipodi:nodetypes="ccccccccccccccccc"
+           id="path4300"
+           d="m 620.52497,113.48849 c 0,0 -1.3984,-1.84258 -3.88648,-2.34018 -1.43242,-0.2865 -16.23588,-1.98141 -18.59922,-1.17108 -3.50148,1.20048 -4.679,5.56553 -4.72672,7.42767 l 0,20.18987 c 0.60771,5.53701 4.1722,7.68456 5.60454,7.69779 -0.0675,0 17.44526,-2.12991 17.8265,-2.22829 2.09324,-0.5402 3.3087,-2.56595 3.3087,-2.56595 0,0 -1.43332,3.31708 -3.24117,4.79427 -1.55309,1.14792 -1.8907,0.94533 -2.56595,1.14792 -1.69276,0.5078 -15.65604,3.20425 -17.21879,3.30869 -5.60454,0.33763 -12.08684,-3.88108 -12.23351,-9.30002 -0.0675,-2.76848 -0.0723,-25.10474 -0.0723,-25.10474 0,-6.15938 7.11433,-9.49832 11.34692,-9.21613 2.14863,0.14324 16.30258,2.19215 18.21247,2.52638 4.55121,0.79647 5.97492,4.09103 5.97492,4.09103 l 0.27012,0.74277 z"
+           style="fill:#000000;fill-opacity:0.15294118;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:round;stroke-opacity:1" />
+        <text
+           inkscape:export-ydpi="203.55"
+           inkscape:export-xdpi="203.55"
+           inkscape:export-filename="C:\Documents and Settings\Claverie Marc\Bureau\b-info.png"
+           transform="scale(1.1020865,0.90736978)"
+           sodipodi:linespacing="125%"
+           id="text4302"
+           y="108.42967"
+           x="567.58362"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:36.10367584px;line-height:125%;font-family:'Trebuchet MS';-inkscape-font-specification:'Trebuchet MS';text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#28170b;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           xml:space="preserve"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:23.64312172px;font-family:'Lucida Sans Unicode';-inkscape-font-specification:'Lucida Sans Unicode';fill:#28170b;fill-opacity:1"
+             y="108.42967"
+             x="567.58362"
+             id="tspan4304"
+             sodipodi:role="line">info</tspan></text>
+        <path
+           inkscape:connector-curvature="0"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:81.36701965px;line-height:125%;font-family:'Trebuchet MS';-inkscape-font-specification:'Trebuchet MS';text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#28170b;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 592.6494,107.69955 0,-25.449293 3.82739,0 0,11.149062 c 1.56721,-2.431344 3.91806,-3.647016 7.0525,-3.647038 2.53862,2.2e-5 4.53328,0.762484 5.98397,2.287396 1.46356,1.524957 2.19539,3.60974 2.19539,6.254359 0,2.879244 -0.82896,5.203964 -2.48684,6.974164 -1.64494,1.75954 -3.81445,2.6393 -6.5085,2.6393 -2.4998,0 -4.57864,-0.78912 -6.23652,-2.36737 l -0.46629,2.15942 -3.3611,0 m 3.82739,-4.33484 c 1.96873,1.45028 3.8468,2.17542 5.63424,2.17542 1.76148,0 3.12147,-0.60251 4.07996,-1.80753 0.95844,-1.21567 1.43768,-2.92189 1.43771,-5.11864 -3e-5,-4.073589 -1.632,-6.110389 -4.89596,-6.110411 -2.13714,2.2e-5 -4.22246,0.954447 -6.25595,2.863264 l 0,7.997897"
+           id="path4306" />
+        <text
+           inkscape:export-ydpi="203.55"
+           inkscape:export-xdpi="203.55"
+           inkscape:export-filename="C:\Documents and Settings\Claverie Marc\Bureau\b-info.png"
+           transform="matrix(0.98879997,-0.01221638,0,1.0113269,0,0)"
+           sodipodi:linespacing="125%"
+           id="text4308"
+           y="122.30621"
+           x="632.16919"
+           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20.42832184px;line-height:125%;font-family:'Apple LiGothic';-inkscape-font-specification:'Apple LiGothic Italic';text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#808080;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           xml:space="preserve"><tspan
+             sodipodi:role="line"
+             id="tspan4310"
+             x="632.16919"
+             y="122.30621">service</tspan></text>
+        <path
+           inkscape:connector-curvature="0"
+           id="path4312"
+           d="m 583.00649,65.900893 c -8.12507,0.373449 -14.72166,7.19128 -14.7788,15.324744 l -0.23397,29.362663 c -0.0572,8.1335 7.08266,17.21898 15.20776,16.84553 l 21.79778,-3.86043 c 4.67786,-0.215 8.83422,-2.6033 11.54231,-6.12209 1.4254,-0.79639 2.57347,-1.85621 3.39251,-3.31451 1.22851,-2.18747 1.75472,-5.16348 1.75472,-9.43661 l 0.11698,-17.586424 c 0,-6.853853 -2.39647,-11.368391 -5.96612,-13.608994 -2.62279,-2.313411 -6.2828,-4.583525 -10.41145,-5.186235 l -22.42172,-2.417644 z m 5.26423,5.264224 0.039,0 24.33243,2.261667 0.039,0 c 4.53878,1.240618 7.91583,5.488184 7.91583,13.686982 L 620.48,104.70019 c 0,4.17159 -0.53402,6.95584 -1.59877,8.85169 -1.04539,1.86138 -2.62989,2.94117 -4.95228,3.70445 l -0.039,0 -25.58025,2.88559 c -0.012,0 -0.027,9e-5 -0.039,0 -2.04171,-0.0175 -3.96001,-1.50959 -5.42018,-4.13341 -1.4688,-2.63928 -2.37866,-6.35837 -2.37866,-10.48945 l 0,-19.731102 c 0,-4.131065 0.90986,-7.850182 2.37866,-10.489447 1.46017,-2.623822 3.37845,-4.115936 5.42018,-4.133394 z"
+           style="fill:#28170b;fill-opacity:1;stroke:none;stroke-width:0.31629816;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dashoffset:0;stroke-opacity:1" />
+      </g>
+      <flowRoot
+         inkscape:export-ydpi="89"
+         inkscape:export-xdpi="89"
+         inkscape:export-filename="/Users/brunoboissonnet/Documents/autoentrepreneur/site/css/images/slogan2.png"
+         xml:space="preserve"
+         id="flowRoot4314"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.9327755px;line-height:125%;font-family:Georgia;-inkscape-font-specification:'Georgia Italic';text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#28170b;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         transform="matrix(0.6622196,0,0,0.56625554,303.21364,-20.401025)"><flowRegion
+           id="flowRegion4316"><rect
+             style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.9327755px;line-height:125%;font-family:Georgia;-inkscape-font-specification:'Georgia Italic';text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#28170b;fill-opacity:1"
+             id="rect4318"
+             width="281.41306"
+             height="35.228901"
+             x="152.56673"
+             y="52.237518" /></flowRegion><flowPara
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.9326973px;line-height:125%;font-family:'Marker Felt';-inkscape-font-specification:'Marker Felt, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start"
+           id="flowPara4320">Votre informaticien à domicile</flowPara></flowRoot>      <flowRoot
+         transform="matrix(0.95893243,0,0,0.95893243,198.1928,-28.942379)"
+         style="font-style:normal;font-weight:normal;font-size:14.12448502px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         id="flowRoot3510"
+         xml:space="preserve"><flowRegion
+           id="flowRegion3512"><rect
+             y="94.316063"
+             x="213.96599"
+             height="37.280647"
+             width="120.92628"
+             id="rect3514" /></flowRegion><flowPara
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.03532887px;line-height:125%;font-family:AppleGothic;-inkscape-font-specification:'AppleGothic, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start"
+           id="flowPara3516">04 90 87 76 62</flowPara><flowPara
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.03532887px;line-height:125%;font-family:AppleGothic;-inkscape-font-specification:'AppleGothic, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start"
+           id="flowPara3520">06 61 58 36 93</flowPara><flowPara
+           id="flowPara3518" /></flowRoot>      <flowRoot
+         transform="translate(526.52719,-44.83559)"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:AppleGothic;-inkscape-font-specification:'AppleGothic, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         id="flowRoot3522"
+         xml:space="preserve"><flowRegion
+           id="flowRegion3524"><rect
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:AppleGothic;-inkscape-font-specification:'AppleGothic, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start"
+             y="145.28828"
+             x="-122.61681"
+             height="36.824215"
+             width="146.51338"
+             id="rect3526" /></flowRegion><flowPara
+           id="flowPara3530">contact@binfoservice.fr</flowPara><flowPara
+           id="flowPara3532">www.binfoservice.fr</flowPara></flowRoot>    </g>
+  </g>
 </svg>
