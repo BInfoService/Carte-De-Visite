@@ -2,6 +2,8 @@
 
 Travail sur la carte de visite de B Info Service.
 
+![Carte de visite](carte-de-visite.png)
+
 ## Prérequis
 
 Toutes les cartes de visite ont été créés à l'aide du logiciel [Inkscape](https://inkscape.org) qui permet de créer des images vectorielles (fichiers .svg).

@@ -1,38 +1,23 @@
 #! /bin/bash -x
 
 # +---------------------------------------------------------------------------+
-# | Transforme tous les .svg du dossier en .png.                              |
-# | Usage:  ./svg2png.sh [-h] parametre1 parametre2                            |
+# | Crée une nouvelle version du projet SVG.                                  |
+# | Usage:  ./svg2github.sh [-h] nomFichierSVG version                        |
 # +---------------------------------------------------------------------------+
 
 # +---------------------------------------------------------------------------+
-# |  Fichier     : svg2png.sh                                                  |
+# |  Fichier     : svg2github.sh                                              |
 # |  Version     : 1.0.0                                                      |
 # |  Auteur      : Bruno Boissonnet                                           |
 # |  Date        : 20/04/2019                                                 |
 # +---------------------------------------------------------------------------+
 
 
-# Algorithme :
-#
-# 1. On récupère le mois en cours
-# 2. On récupère le mois suivant
-# 3. On récupère la date d'aujourd'hui
-# 4. On récupère la date de demain
-# 5. Utiliser la commande `curl --silent` pour récupérer le code source de la page
-# 6. On efface les dix dernières lignes du fichier pour ne pas lire des caractères qui ne sont pas en UTF-8
-# 7. On récupère les menus du mois en cours
-# 8. On ne garde que la deuxième ligne
-# 9. On efface toute la ligne avant <strong>${AUJOURDHUI}<\/strong> et tout après <strong>${DEMAIN}<\/strong>
-# 10. On remplace <br /> par des sauts de ligne
-# 11. On efface les lignes qui contiennent "<strong>" et les lignes vides
-
-
 # +---------------------------------------------------------------------------+
 # |                             FONCTIONS                                     |
 # +---------------------------------------------------------------------------+
 
-NOM_PROJET="carte-de-visite"
+NOM_PROJET=""
 VERSION=""
 
 # fonction principale du programme
@@ -44,7 +29,7 @@ main()
     git add .
     git commit -m "Version "${VERSION}
     git push origin master
-    git tag -fa "V"${VERSION}
+    git tag "V"${VERSION}
     git push origin "V"${VERSION}
     rm -f ${NOM_PROJET}.*
     # instructions
@@ -55,12 +40,12 @@ main()
 # Pas de paramètres
 usage()
 {    
-    echo "Usage: $0 [-options] parametre1"
+    echo "Usage: $0 [-options] nomFichierSVG Version"
     echo "Crée une nouvelle version du projet SVG"
     echo ""
-    echo "    -h:         affiche cette aide"
-    echo "    parametre1: Le nom du projet SVG"
-    echo "    parametre2: La version du projet SVG"
+    echo "    -h            : affiche cette aide"
+    echo "    nomFichierSVG : Le nom du projet SVG"
+    echo "    Version       : La version du projet SVG"
     echo ""
 }
 
