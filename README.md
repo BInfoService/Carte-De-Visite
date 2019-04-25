@@ -2,7 +2,7 @@
 
 Travail sur la carte de visite de B Info Service.
 
-![Carte de visite](carte-de-visite.png)
+![Carte de visite](carte-de-visite_1.png)
 
 
 ## Prérequis
