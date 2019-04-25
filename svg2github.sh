@@ -1,4 +1,4 @@
-#! /bin/bash -x
+#! /bin/bash
 
 # +---------------------------------------------------------------------------+
 # | Crée une nouvelle version du projet SVG.                                  |
@@ -7,7 +7,7 @@
 
 # +---------------------------------------------------------------------------+
 # |  Fichier     : svg2github.sh                                              |
-# |  Version     : 1.0.0                                                      |
+# |  Version     : 1.1.0                                                      |
 # |  Auteur      : Bruno Boissonnet                                           |
 # |  Date        : 20/04/2019                                                 |
 # +---------------------------------------------------------------------------+
@@ -24,16 +24,18 @@ VERSION=""
 main()
 {
     processParams $@
-    mv *.svg ${NOM_PROJET}.svg
-    svgVersPng ${NOM_PROJET}.svg
-    git add .
-    git commit -m "Version "${VERSION}
-    git push origin master
-    git tag "V"${VERSION}
-    git push origin "V"${VERSION}
-    rm -f ${NOM_PROJET}.*
-    # instructions
-    # RESULTAT=$(fonction $1 $2)
+    
+    RenommeTousLesSVG
+        
+    TousSvgVersPng
+    TousSvgVersPDF
+
+    EnregistreDansDepotGitEtGitHub "Version ${VERSION}"
+    if [ $? -ne 0 ]; then
+        PoseUnTagSurDepotGitEtGitHub "V${VERSION}"
+    fi
+    
+    # rm -f ${NOM_PROJET}.*
 }
 
 # Affiche un message d'aide
@@ -72,12 +74,26 @@ processParams()
     fi
 }
 
-
-# Transforme un fichier svg en png
-# [Dans le dossier "Inkscape_PNG"]
-# $1 : nom du fichier svg
+# Renomme tous les fichiers .svg du dossier en cours
+# sour la forme : "NOM_PROJET_X.svg" => ex : carte-de-visite_1.svg
 # retour : NA
-# exemple : svgVersPng fichier
+# exemple : RenommeTousLesSVG
+RenommeTousLesSVG()
+{
+    COMPTEUR=1
+    for i in *.[sS][vV][gG];do
+        # echo ${i}
+        # echo ${NOM_PROJET}_${COMPTEUR}.svg
+        mv "${i}" "${NOM_PROJET}_${COMPTEUR}.svg"
+        let COMPTEUR++
+    done
+}
+
+
+# Appelle la fonction svgVersPng
+# sur tous les fichiers .svg du dossier en cours
+# retour : NA
+# exemple : TousSvgVersPng
 TousSvgVersPng()
 {
     for i in *.[sS][vV][gG];do
@@ -110,6 +126,38 @@ svgVersPng()
 }
 
 
+# Appelle la fonction svgVersPDF
+# sur tous les fichiers .svg du dossier en cours
+# retour : NA
+# exemple : TousSvgVersPng
+TousSvgVersPDF()
+{
+    for i in *.[sS][vV][gG];do
+        svgVersPDF "$i"
+    done
+}
+
+# Transforme un fichier svg en PDF
+# $1 : nom du fichier PDF
+# retour : NA
+# exemple : svgVersPDF fichier
+svgVersPDF()
+{
+    RET=""
+    INKSCAPE_PGM="/Applications/Inkscape.app/Contents/Resources/bin/inkscape"
+    PDF=$(nomSansExtension "${1}")
+    CWD=$(pwd)
+        
+    if [ -x "${INKSCAPE_PGM}" ]; then
+        ${INKSCAPE_PGM} -z "${CWD}/${1}" --export-pdf="${CWD}/${PDF}.PDF"
+    else
+        echo "Error : Inkscape not found ! Please install Inkscape before runing this script."
+    fi
+    
+    # echo $RET
+}
+
+
 # Renvoi le nom sans l'extension
 # $1 : fichier dont on veut le nom
 # Retour : le nom sans le chemin ni l'extension
@@ -119,6 +167,41 @@ nomSansExtension()
     fichier=$(basename "${1}")
     echo "${fichier%.*}"
 }
+
+# Enregistre tous les fichiers du dossier en cours
+# dans le dépôt git et envoi cet instantanné sur GitHub.
+# $1 : Message de la consigne
+# Retour : 0 si erreur, ≠ 0 si OK
+# Exemple : EnregistreDansDepotGitEtGitHub "modif cadre"
+EnregistreDansDepotGitEtGitHub()
+{
+    if [ $# -gt 0 ]; then
+        git add .
+        git commit -m "${1}"
+        git push origin master
+    else
+        exit 0
+    fi
+    
+}
+
+
+# Pose un tag sur le dernier commit du dépôt
+# et sur le dépôt GitHub.
+# $1 : Numéro de version pour le tag
+# Retour : 0 si erreur, ≠ 0 si OK
+# Exemple : PoseUnTagSurDepotGitEtGitHub "1.2.3"
+PoseUnTagSurDepotGitEtGitHub()
+{
+    if [ $# -gt 0 ]; then
+        git tag "V${1}"
+        git push origin "V${1}"
+    else
+        exit 0
+    fi
+    
+}
+
 
 # +---------------------------------------------------------------------------+
 # |                        DÉBUT DU PROGRAMME                                 |
